@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.linksList {
+    display: flex;
+    margin-left: auto;
+}
+
+.linksList>li+li {
+    margin-left: 65px;
+}
+
+.header>button {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 54px;
+    min-width: 124px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #000;
+    border: none;
+    color: #fefefe;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.72px;
+    transition: ease-in-out 0.2s;
+}
+
+.header>button:hover {
+    opacity: 0.8;
+}
