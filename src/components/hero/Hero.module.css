@@ -1,0 +1,80 @@
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1270px;
+    height: 652px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    background: #f4f6f5;
+    margin-bottom: 56px;
+}
+
+.imageContainer>img {
+    margin-top: 38px;
+}
+
+.textContainer {
+    padding: 77px 80px;
+}
+
+.textContainer>h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.textContainer>p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.rectangle {
+    display: block;
+    width: 400px;
+    height: 80px;
+    background-image: url("../images/white-rectangle.png");
+    color: #000;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.yellowRectangle {
+    display: block;
+    width: 400px;
+    height: 80px;
+    background-image: url("../images/yellow-rectangle.png");
+    background-repeat: no-repeat;
+    color: #000;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.buttonGroup>button {
+    min-width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: #000;
+    border: none;
+    color: #f4f6f5;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+    margin-left: 34px;
+}
