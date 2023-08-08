@@ -1,0 +1,26 @@
+.vouchers {
+    margin-top: 202px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textGroup {
+    margin-top: 17%;
+}
+
+.textGroup h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 72px */
+    letter-spacing: 2.88px;
+    margin-bottom: 35px;
+}
+
+.textGroup img+img {
+    margin-left: 19px;
+    margin-top: 65px;
+}

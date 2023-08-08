@@ -10,6 +10,23 @@
     margin-left: auto;
 }
 
+.link>a {
+    cursor: pointer;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.22px;
+    transition: ease-in-out 0.2s;
+}
+
+.link:visited {
+    color: #000;
+}
+
+.linksList>li:hover {
+    opacity: 0.7;
+}
+
 .linksList>li+li {
     margin-left: 65px;
 }
@@ -17,17 +34,16 @@
 .header>button {
     cursor: pointer;
     display: inline-block;
-    margin-left: 54px;
-    min-width: 124px;
+    margin-left: 50px;
+    min-width: 120px;
     height: 57px;
     flex-shrink: 0;
     border-radius: 7px;
     background: #000;
     border: none;
     color: #fefefe;
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 500;
-    letter-spacing: -0.72px;
     transition: ease-in-out 0.2s;
 }
 

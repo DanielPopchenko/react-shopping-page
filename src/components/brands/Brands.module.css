@@ -1,0 +1,9 @@
+.brands {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    flex-shrink: 0;
+    background: #ebd96b;
+    padding: 40px 100px;
+}

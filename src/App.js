@@ -1,15 +1,20 @@
 import React from "react";
-import { Container } from "./components/container/Container";
-import { Header } from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-
+import { Routes, Route } from "react-router-dom";
+import About from "./pages/about/About";
+import Catalogue from "./pages/catalogue/Catalogue";
+import Favourite from "./pages/favourite/Favourite";
+import Home from "./pages/home/Home";
+import Error from "./pages/error/Error";
 const App = () => {
 	return (
 		<>
-			<Container>
-				<Header />
-				<Hero />
-			</Container>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/catalogue" element={<Catalogue />} />
+				<Route path="/favourite" element={<Favourite />} />
+				<Route path="/about" element={<About />} />
+				<Route path="*" element={<Error />} />
+			</Routes>
 		</>
 	);
 };

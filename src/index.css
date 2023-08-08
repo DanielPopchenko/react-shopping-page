@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     height: auto;
-    width: 1470px;
+    max-width: 1470px;
     background-color: #ffffff;
     color: #000;
 }
@@ -27,4 +27,23 @@ a {
 ul,
 li {
     list-style: none;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    min-width: 120px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #000;
+    border: none;
+    color: #fefefe;
+    font-size: 17px;
+    font-weight: 500;
+    transition: ease-in-out 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
 }

@@ -1,0 +1,58 @@
+.sale {
+    width: 100%;
+    margin-top: 145px;
+    height: 750px;
+    display: flex;
+    background: linear-gradient( 360deg, #e0c340 0%, #dfc23e 3.93%, #e1c441 7.23%, #e3c743 10.23%, #e4c542 13.14%, #e6c744 16.22%, #e7c845 19.84%, #e5c643 24.38%, #e6c945 31%, #e3c743 37.19%, #e9ca48 43.33%, #edce49 50.36%, #f0d44c 56.57%, #f4d84f 62.71%, #f6da52 67.12%, #f7db53 73.77%, #f9dd55 79.08%, #f9df56 85.64%, #fae157 93.5%, #f9df56 100%);
+}
+
+.sale h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.textContainer {
+    padding: 130px 190px 110px 80px;
+}
+
+.rectangle {
+    display: block;
+    width: 400px;
+    height: 80px;
+    background-image: url("../images/white-rectangle.png");
+    color: #000;
+    font-family: Poppins;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.textContainer p {
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -0.721px;
+}
+
+.textContainer h4 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 52.316px;
+    letter-spacing: 0.721px;
+}
+
+.textContainer button {
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background: #000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 51px;
+}

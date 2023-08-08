@@ -1,0 +1,40 @@
+.arrivals {
+    margin-top: 90px;
+}
+
+.arrivalsHeading {
+    background-image: url("../images/element.png");
+    background-repeat: no-repeat;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrivalsHeading h2 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 2.88px;
+}
+
+.arrivalsList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 114px;
+}
+
+.arrivalsList img {
+    margin-bottom: 28px;
+}
+
+.textGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textGroup p {
+    color: #7f7f7f;
+    font-size: 18px;
+    font-weight: 500;
+}

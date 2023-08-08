@@ -14,7 +14,7 @@ const Hero = () => {
 				<p>Live for Influential and Innovative fashion!</p>
 				<div className={styles.buttonGroup}>
 					<img src={element} alt="" width={150} heigth={30} />
-					<button type="button">Shop Now</button>
+					<button type="button">SHOP NOW</button>
 				</div>
 			</div>
 			<div className={styles.imageContainer}>
