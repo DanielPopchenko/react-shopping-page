@@ -4,6 +4,8 @@ import styles from "./Header.module.css";
 import logo from "../images/logo.png";
 import { routes } from "../../links";
 
+import MyModal from "../signup-modal/MyModal";
+
 export const Header = () => {
 	return (
 		<header className={styles.header}>
@@ -19,7 +21,9 @@ export const Header = () => {
 				))}
 			</ul>
 
-			<button type="button">SIGN UP</button>
+			{/* <button type="button">SIGN UP</button> */}
+
+			<MyModal />
 		</header>
 	);
 };

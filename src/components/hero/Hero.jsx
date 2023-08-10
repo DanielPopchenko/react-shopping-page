@@ -2,8 +2,10 @@ import React from "react";
 import styles from "./Hero.module.css";
 import image from "../images/hero-img.png";
 import element from "../images/element.png";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+	const navigate = useNavigate();
 	return (
 		<div className={styles.hero}>
 			<div className={styles.textContainer}>
@@ -14,7 +16,9 @@ const Hero = () => {
 				<p>Live for Influential and Innovative fashion!</p>
 				<div className={styles.buttonGroup}>
 					<img src={element} alt="" width={150} heigth={30} />
-					<button type="button">SHOP NOW</button>
+					<button type="button" onClick={() => navigate("/catalogue")}>
+						SHOP NOW
+					</button>
 				</div>
 			</div>
 			<div className={styles.imageContainer}>
